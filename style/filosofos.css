@@ -1,0 +1,40 @@
+.socra {
+    background: url(../img/socrates.jpg) center top no-repeat;
+    background-size: cover;
+}
+.sinope {
+    background: url(../img/sinope.jpg) center no-repeat;
+    background-size: cover;
+}
+.heraclito {
+    background: url(../img/Heraclito.jpg) center no-repeat;
+    background-size: cover;
+}
+.maquiavel {
+    background: url(../img/Maquiavel.jpg) center top no-repeat;
+    background-size: cover;
+}
+.nietzsche {
+    background: url(../img/Nietzsche.jpg) center no-repeat;
+    background-size: cover;
+}
+.Schopenhauer {
+    background: url(../img/Schopenhauer.jpg) center top no-repeat;
+    background-size: cover;
+}
+.Platão {
+    background: url(../img/platao.jpg) center no-repeat;
+    background-size: cover;
+}
+.Parmenides {
+    background: url(../img/parmenides.jpg) center no-repeat;
+    background-size: cover;
+}
+.Tales {
+    background: url(../img/tales.jpg) center no-repeat;
+    background-size: cover;
+}
+.Descartes {
+    background: url(../img/Descartes.jpg) center top no-repeat;
+    background-size: cover;
+}
