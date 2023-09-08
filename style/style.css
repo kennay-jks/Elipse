@@ -9,7 +9,9 @@
     scrollbar-width: none;
 }
 body {
-    background: #080808;
+    background-color: #d6d6d6;
+    background: #080808 url('../img/outos/pexels-snapwire-6992.jpg') center no-repeat fixed;
+    background-size: cover;
 }
 nav {
     display: flex;
@@ -17,7 +19,7 @@ nav {
     align-items: center;
     width: 100vw;
     height: 9vh;
-    border-bottom: 1px solid #d6d6d6;
+    /* border-bottom: 1px solid #d6d6d6; */
 }
 .menu_list {
     width: 70vw;
@@ -34,19 +36,21 @@ nav {
 .buscabtn {
     display: grid;
     place-items: center;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    background: #d6d6d6;
-    margin: 10px;
+    width: 28px;
+    height: 28px;
+    /* border-radius: 50%; */
+    /* background: #d6d6d6; */
+    margin: 5px;
+    cursor: pointer;
+    border-left: 1px solid #d6d6d6;
 }
 .lupa {
-    width: 20px;
+    width: 18px;
 }
 #search {
     background: #080808;
     border: none;
-    border-bottom: 1px solid #d6d6d6;
+    /* border-bottom: 1px solid #d6d6d6; */
     padding: 3px;
 }
 #search:focus {
@@ -84,6 +88,8 @@ main {
     height: 200px;
     border-radius: 5px;
     cursor: pointer;
+    overflow: hidden;
+    box-shadow: 4px 4px 7px #00000081;
 }
 .info {
     display: flex;
@@ -114,8 +120,18 @@ main {
 .aba {
     text-decoration: none;
     font-size: 1.1em;
+    color: #d6d6d6;
 }
 ::selection {
     background: #d6d6d6;
     color: #080808;
+}
+.env {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #080808;
+    border-radius: 40px;
+    height: 35px;
+    padding: 4px 3px 4px 7px;
 }

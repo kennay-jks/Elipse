@@ -1,40 +1,40 @@
 .socra {
-    background: url(../img/socrates.jpg) center top no-repeat;
+    background: #d6d6d6 url(../img/socrates.svg) center top no-repeat;
     background-size: cover;
 }
 .sinope {
-    background: url(../img/sinope.jpg) center no-repeat;
+    background: #d6d6d6 url(../img/sinope.svg) center no-repeat;
     background-size: cover;
 }
 .heraclito {
-    background: url(../img/Heraclito.jpg) center no-repeat;
+    background: #d6d6d6 url(../img/Heraclito.svg) center no-repeat;
     background-size: cover;
 }
 .maquiavel {
-    background: url(../img/Maquiavel.jpg) center top no-repeat;
+    background: #d6d6d6 url(../img/Maquiavel.svg) center top no-repeat;
     background-size: cover;
 }
 .nietzsche {
-    background: url(../img/Nietzsche.jpg) center no-repeat;
+    background: #d6d6d6 url(../img/Nietzsche.svg) center no-repeat;
     background-size: cover;
 }
 .Schopenhauer {
-    background: url(../img/Schopenhauer.jpg) center top no-repeat;
+    background: #d6d6d6 url(../img/Schopenhauer.svg) center top no-repeat;
     background-size: cover;
 }
 .Platão {
-    background: url(../img/platao.jpg) center no-repeat;
+    background: #d6d6d6 url(../img/platao.svg) center no-repeat;
     background-size: cover;
 }
 .Parmenides {
-    background: url(../img/parmenides.jpg) center no-repeat;
+    background: #d6d6d6 url(../img/parmenides.svg) center no-repeat;
     background-size: cover;
 }
 .Tales {
-    background: url(../img/tales.jpg) center no-repeat;
+    background: #d6d6d6 url(../img/tales.svg) center no-repeat;
     background-size: cover;
 }
 .Descartes {
-    background: url(../img/Descartes.jpg) center top no-repeat;
+    background: #d6d6d6 url(../img/Descartes.svg) center top no-repeat;
     background-size: cover;
 }
