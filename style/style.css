@@ -193,7 +193,7 @@ main {
         border-radius: 0px 5px 5px 0px;
     }
 }
-.filos-list {
+.lista {
     display: none;
     flex-direction: column;
     justify-content: center;
