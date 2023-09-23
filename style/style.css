@@ -10,7 +10,8 @@
     list-style: none;
 }
 body {
-    background: #080808 url('../img/outos/pexels-snapwire-6992.jpg') center no-repeat fixed;
+    /* background: #d6d6d6; */
+    background: #d6d6d6 url('../img/outos/pexels-snapwire-6992.jpg') center no-repeat fixed;
     background-size: cover;
 }
 nav {
@@ -22,9 +23,12 @@ nav {
     /* border-bottom: 1px solid #d6d6d6; */
 }
 .menu_list {
-    width: 70vw;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100vw;
     height: auto;
-    padding-left: 10vw;
+    padding-right: 6vw;
 }
 .busca {
     display: flex;
@@ -59,6 +63,9 @@ nav {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+.home {
+    color: #080808;
 }
 main {
     display: flex;
