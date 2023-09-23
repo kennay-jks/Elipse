@@ -1,0 +1,61 @@
+.filosaba {
+    display: none;
+}
+.menu_list {
+    width: 30vw;
+    padding-left: 20px;
+}
+.busca {
+    width: 70vw;
+    padding-right: 10px;
+}
+.filos {
+    display: block;
+    flex-direction: column;
+    gap: 50px;
+    padding: 30px 40px;
+    width: 100vw;
+    height: 91vh;
+}
+.filo {
+    display: block;
+    background: #d6d6d6;
+    width: 150px;
+    height: 200px;
+    border-radius: 5px 0px 0px 5px;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 4px 4px 7px #00000000;
+}
+.info {
+    display: none;
+}
+.link {
+    margin: 25px;
+    width: 400px;
+}
+.infomo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 150px;
+    height: 200px;
+    padding-left: 20px;
+    padding: 10px;
+    background: #0808089c;
+    border-radius: 0px 5px 5px 0px;
+}
+.lista {
+    top: 47px;
+    right: 80px;
+}
+.busca {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 600px;
+    height: auto;
+    padding-right: 40px;
+}

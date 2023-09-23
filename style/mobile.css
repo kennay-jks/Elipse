@@ -47,3 +47,15 @@
     background: #0808089c;
     border-radius: 0px 5px 5px 0px;
 }
+.busca {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 600px;
+    height: auto;
+    padding-right: 40px;
+}
+.lista {
+    top: 47px;
+    right: 80px;
+}
