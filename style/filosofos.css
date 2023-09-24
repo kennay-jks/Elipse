@@ -38,3 +38,23 @@
     background: #d6d6d6 url(../img/Descartes.svg) center top no-repeat;
     background-size: cover;
 }
+.Wittgenstein {
+    background: #d6d6d6 url(../img/Wittgenstein.svg) center top no-repeat;
+    background-size: cover;
+}
+.Confucio {
+    background: #d6d6d6 url(../img/Confucius.svg) center top no-repeat;
+    background-size: cover;
+}
+.hegel {
+    background: #d6d6d6 url(../img/hegel2.svg) center no-repeat;
+    background-size: cover;
+}
+.kant {
+    background: #d6d6d6 url(../img/kant.svg) center no-repeat;
+    background-size: cover;
+}
+.montesquieu {
+    background: #d6d6d6 url(../img/Montesquieu.svg) center top no-repeat;
+    background-size: cover;
+}
