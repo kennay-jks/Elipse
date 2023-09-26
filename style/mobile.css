@@ -1,14 +1,6 @@
 .filosaba {
     display: none;
 }
-.menu_list {
-    width: 30vw;
-    padding-left: 20px;
-}
-.busca {
-    width: 400px;
-    padding-right: 10px;
-}
 .filos {
     display: block;
     flex-direction: column;
@@ -20,42 +12,27 @@
 .filo {
     display: block;
     background: #d6d6d6;
-    width: 150px;
-    height: 200px;
+    width: 220px;
+    height: 250px;
     border-radius: 5px 0px 0px 5px;
     cursor: pointer;
     overflow: hidden;
     box-shadow: 4px 4px 7px #00000000;
 }
-.info {
-    display: none;
-}
 .link {
     margin: 25px;
     width: auto;
 }
-.infomo {
+.info {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    width: 150px;
-    height: 200px;
+    width: 180px;
+    height: 250px;
     padding-left: 20px;
     padding: 10px;
     background: #0808089c;
     border-radius: 0px 5px 5px 0px;
-}
-.busca {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    width: 600px;
-    height: auto;
-    padding-right: 40px;
-}
-.lista {
-    top: 47px;
-    right: 80px;
 }
