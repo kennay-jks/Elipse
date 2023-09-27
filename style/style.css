@@ -14,16 +14,18 @@ body {
 }
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: end;
     align-items: center;
     width: 100vw;
     height: 9vh;
     box-shadow: 3px 3px 5px #00000046;
+    padding: 0px 3vw;
 }
 .menu {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    gap: 25px;
 }
 .home {
     color: #080808;
@@ -105,4 +107,22 @@ a {
 }
 li > a:hover {
     opacity: 0.5;
+}
+.shadow-mode {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 55px;
+    height: 30px;
+    background: #080808;
+    margin: 0px 25px;
+    padding: 5px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.ball {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #d6d6d6;
 }
