@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-    color: #080808;
     scrollbar-width: none;
     list-style: none;
     text-decoration: none;
@@ -14,6 +13,7 @@ body {
     display: flex;
     flex-direction: row-reverse;
     background: #d6d6d6;
+    color: #080808;
 }
 nav {
     display: flex;
@@ -24,8 +24,11 @@ nav {
     width: 5vw;
     min-width: 3vw;
     height: 100vh;
-    box-shadow: -3px -3px 5px #00000046;
+    box-shadow: -3px -3px 5px #00000041;
     padding-top: 25px;
+}
+#branco {
+    display: none;
 }
 .env-lista {
     display: flex;
@@ -52,6 +55,96 @@ nav {
     padding: 5px;
     border-radius: 100px;
     cursor: pointer;
+}
+.shadow-mode.active {
+    animation-name: mode;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+}
+.shadow-mode.nothing {
+    animation-name: whit;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+}
+@keyframes mode {
+    0% {
+        justify-content: center;
+        align-items: flex-start;
+    }
+    100% {
+        justify-content: center;
+        align-items: flex-end;
+    }
+}
+@-moz-keyframes mode {
+    0% {
+        justify-content: center;
+        align-items: flex-start;
+    }
+    100% {
+        justify-content: center;
+        align-items: flex-end;
+    }
+}
+@-webkit-keyframes mode {
+    0% {
+        justify-content: center;
+        align-items: flex-start;
+    }
+    100% {
+        justify-content: center;
+        align-items: flex-end;
+    }
+}
+@-o-keyframes mode {
+    0% {
+        justify-content: center;
+        align-items: flex-start;
+    }
+    100% {
+        justify-content: center;
+        align-items: flex-end;
+    }
+}
+@keyframes whit {
+    0% {
+        justify-content: center;
+        align-items: flex-end;
+    }
+    100% {
+        justify-content: center;
+        align-items: flex-start;
+    }
+}
+@-moz-keyframes whit {
+    0% {
+        justify-content: center;
+        align-items: flex-end;
+    }
+    100% {
+        justify-content: center;
+        align-items: flex-start;
+    }
+}
+@-o-keyframes whit {
+    0% {
+        justify-content: center;
+        align-items: flex-end;
+    }
+    100% {
+        justify-content: center;
+        align-items: flex-start;
+    }
+}
+@-webkit-keyframes whit {
+    0% {
+        justify-content: center;
+        align-items: flex-end;
+    }
+    100% {
+        justify-content: center;
+        align-items: flex-start;
+    }
 }
 .ball {
     width: 20px;
@@ -117,6 +210,9 @@ main {
     border-radius: 30px;
     padding: 10px;
 }
+#preto-p {
+    display: none;
+}
 .ancora {
     margin: 30px auto;
 }
@@ -179,6 +275,36 @@ main {
         padding: 5px;
         border-radius: 100px;
         cursor: pointer;
+    }
+    .shadow-mode.active {
+        animation-name: mode;
+        animation-duration: .3s;
+        animation-fill-mode: forwards;
+    }
+    .shadow-mode.nothing {
+        animation-name: whit;
+        animation-duration: .3s;
+        animation-fill-mode: forwards;
+    }
+    @keyframes mode {
+        0% {
+            justify-content: flex-start;
+            align-items: center;
+        }
+        100% {
+            justify-content: flex-end;
+            align-items: center;
+        }
+    }
+    @keyframes whit {
+        0% {
+            justify-content: flex-end;
+            align-items: center;
+        }
+        100% {
+            justify-content: flex-start;
+            align-items: center;
+        }
     }
     .ball {
         width: 20px;
