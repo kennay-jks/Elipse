@@ -58,12 +58,12 @@ nav {
 }
 .shadow-mode.active {
     animation-name: mode;
-    animation-duration: .3s;
+    animation-duration: .1s;
     animation-fill-mode: forwards;
 }
 .shadow-mode.nothing {
     animation-name: whit;
-    animation-duration: .3s;
+    animation-duration: .1s;
     animation-fill-mode: forwards;
 }
 @keyframes mode {
