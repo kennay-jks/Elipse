@@ -1,4 +1,4 @@
-let env = document.querySelector('.env-mode')
+let env = document.querySelector('.dark-mode')
 
 function darkMode() {
     document.body.classList.toggle('dark')
@@ -6,7 +6,7 @@ function darkMode() {
 
 function loadTheme() {
     let mode = localStorage.getItem('dark')
-    
+
     if (mode) {
         darkMode()
     }
