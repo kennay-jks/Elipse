@@ -1,0 +1,36 @@
+.dark {
+    background: #080808;
+    color: #d6d6d6;
+}
+.dark .btn {
+    background: #d6d6d6;
+}
+.dark .bot p {
+    color: #080808;
+}
+.dark #branco-p{
+    display: none;
+}
+.dark #preto-p {
+    display: block;
+}
+.dark .branco {
+    display: block;
+}
+.dark .preto {
+    display: none;
+}
+.dark .ball {
+    background: #080808;
+}
+.dark .dark-mode {
+    align-items: flex-end;
+    background: #d6d6d6;
+}
+@media screen and (max-width:883px) {
+    .dark .dark-mode {
+        justify-content: flex-end;
+        align-items: center;
+        background: #d6d6d6;
+    }
+}

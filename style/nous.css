@@ -80,7 +80,7 @@ main {
 @media screen and (max-width:596px) {
     body {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         background: #d6d6d6;
     }
     nav {
@@ -91,6 +91,7 @@ main {
         min-width: 3vw;
         height: 9vh;
         padding-top: 1vh;
+        box-shadow: 3px 3px 5px #00000048;
     }
     .menu {
         display: flex;
