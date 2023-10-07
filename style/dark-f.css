@@ -2,6 +2,9 @@
     background: #080808;
     color: #d6d6d6;
 }
+.dark * {
+    color: #d6d6d6;
+}
 .dark .branco {
     display: block;
 }
@@ -22,6 +25,12 @@
     color: #d6d6d6;
 }
 .dark .bio p {
+    color: #d6d6d6;
+}
+.dark {
+    color: #d6d6d6;
+}
+.dark {
     color: #d6d6d6;
 }
 @media screen and (max-width:883px) {
