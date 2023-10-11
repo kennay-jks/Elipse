@@ -50,7 +50,7 @@ main {
     background: #d6d6d6;
     width: 220px;
     height: 250px;
-    border-radius: 5px 0px 0px 5px;
+    border-radius: 8px 0px 0px 8px;
     cursor: pointer;
     overflow: hidden;
     box-shadow: 4px 4px 7px #00000000;
@@ -64,6 +64,8 @@ main {
     text-decoration: none;
     min-width: 320px;
     height: 250px;
+    box-shadow: 6px 6px 13px #00000056;
+    border-radius: 8px;
 }
 ::selection {
     background: #d6d6d6;
@@ -89,7 +91,7 @@ main {
     padding-left: 20px;
     padding: 10px;
     background: #161616;
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 8px 8px 0px;
     border: 1px solid #080808;
     border-left: none;
 }
@@ -133,6 +135,11 @@ li > a:hover {
     display: none;
 }
 @media screen and (max-width:596px) {
+    main {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
     .filosaba {
         display: none;
     }
@@ -155,7 +162,7 @@ li > a:hover {
         box-shadow: 4px 4px 7px #00000000;
     }
     .link {
-        margin: 25px;
+        margin: 25px 0px;
         width: auto;
     }
     .info {

@@ -112,6 +112,23 @@ main {
     color: #d6d6d6;
     background: #080808;
 }
+.frases {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    max-height: 150px;
+    padding: 5px;
+    background: #161616;
+    margin: 8px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.frases p {
+    margin: 0;
+    color: #d6d6d6;
+    padding: 10px;
+}
 @media screen and (max-width:596px) {
     body {
         display: flex;
