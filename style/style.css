@@ -53,7 +53,7 @@ main {
     border-radius: 8px 0px 0px 8px;
     cursor: pointer;
     overflow: hidden;
-    box-shadow: 4px 4px 7px #00000000;
+    box-shadow: 4px 4px 7px #000000;
     border: 1px solid #080808;
     border-right: none;
 }
@@ -64,8 +64,11 @@ main {
     text-decoration: none;
     min-width: 320px;
     height: 250px;
-    box-shadow: 6px 6px 13px #00000056;
+    box-shadow: 6px 6px 13px #00000057;
     border-radius: 8px;
+}
+.link:hover {
+    transform: scale(1.1);
 }
 ::selection {
     background: #d6d6d6;

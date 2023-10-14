@@ -9,11 +9,13 @@
     scrollbar-width: none;
     list-style: none;
     text-decoration: none;
+    letter-spacing: 1px;
 }
-body {
+html, body {
     display: flex;
     flex-direction: row-reverse;
     background: #d6d6d6;
+    transition: .3s;
 }
 nav {
     display: flex;
@@ -101,6 +103,7 @@ main {
 }
 .bio h2 {
     font-size: 1.6em;
+    margin-bottom: 20px;
 }
 .add {
     max-width: 300px;
@@ -128,6 +131,30 @@ main {
     margin: 0;
     color: #d6d6d6;
     padding: 10px;
+}
+.img-fil {
+    background: #d6d6d6;
+    width: 148px;
+    height: 200px;
+    margin: auto;
+    border: 1px solid #d6d6d6;
+    border-radius: 8px;
+}
+.img-fil img {
+    height: 200px;
+}
+#top {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background: #080808;
+    border-radius: 50%;
+    border: 2px solid #d6d6d6;
+
+    position: absolute;
+    left: 90vw;
+    top: 90vh;
+
 }
 @media screen and (max-width:596px) {
     body {
@@ -158,6 +185,7 @@ main {
     }
     .bio {
         height: 91vh;
+        padding: 8vw;
     }
     .bio h1, h2, p {
         color: #080808;
