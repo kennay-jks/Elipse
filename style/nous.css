@@ -12,8 +12,6 @@
     letter-spacing: 1px;
 }
 html, body {
-    display: flex;
-    flex-direction: row-reverse;
     background: #d6d6d6;
     transition: .3s;
 }
@@ -24,10 +22,13 @@ nav {
     align-items: flex-start;
     gap: 4vh;
     width: 5vw;
-    min-width: 3vw;
     height: 100vh;
     box-shadow: -3px -3px 5px #00000041;
     padding-top: 25px;
+
+    position: absolute;
+    top: 0;
+    left: 95vw;
 }
 .branco {
     display: none;
@@ -79,9 +80,6 @@ nav {
     height: 10px;
 }
 main {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
     width: 95vw;
     height: 100vh;
 }
@@ -120,7 +118,7 @@ main {
     justify-content: center;
     align-items: center;
     width: auto;
-    max-height: 150px;
+    height: auto;
     padding: 5px;
     background: #161616;
     margin: 8px;
@@ -139,6 +137,7 @@ main {
     margin: auto;
     border: 1px solid #d6d6d6;
     border-radius: 8px;
+    overflow: hidden;
 }
 .img-fil img {
     height: 200px;
@@ -151,27 +150,50 @@ main {
     border-radius: 50%;
     border: 2px solid #d6d6d6;
 
-    position: absolute;
+    position: fixed;
     left: 90vw;
     top: 90vh;
 
 }
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100vw;
+    height: 30vh;
+    background: #080808;
+    padding: 20px;
+    box-shadow: -4px -4px 10px #0000004f;
+    overflow: hidden;
+    border-top: 1px solid #d6d6d6;
+}
+footer a {
+    color: #d6d6d6;
+    font-size: 1em;
+    margin: 10px;
+    transition: .3s;
+}
+footer a:hover {
+    opacity: 0.5;
+}
 @media screen and (max-width:596px) {
     body {
-        display: flex;
-        flex-direction: column;
         background: #d6d6d6;
     }
     nav {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         width: 100vw;
         min-width: 3vw;
         height: 9vh;
         padding-top: 1vh;
-        box-shadow: 3px 3px 5px #00000048;
+        padding: 0;
+        box-shadow: 3px 3px 5px #00000046;
+
+        position: static;
     }
     .menu {
         display: flex;
@@ -181,25 +203,15 @@ main {
         gap: 18vw;
     }
     main {
+        width: 100vw;
         height: 91vh;
     }
     .bio {
         height: 91vh;
-        padding: 8vw;
+        padding: 5vw;
     }
     .bio h1, h2, p {
         color: #080808;
-    }
-    nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        width: 100vw;
-        min-width: 3vw;
-        height: 9vh;
-        padding: 0;
-        box-shadow: 3px 3px 5px #00000046;
     }
     .env-lista {
         display: flex;

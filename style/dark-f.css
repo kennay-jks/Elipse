@@ -33,7 +33,6 @@
 .dark {
     color: #d6d6d6;
 }
-
 @media screen and (max-width:883px) {
     .dark .dark-mode {
         justify-content: flex-end;

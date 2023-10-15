@@ -65,7 +65,7 @@ main {
     min-width: 320px;
     height: 250px;
     box-shadow: 6px 6px 13px #00000057;
-    border-radius: 8px;
+    border-radius: 3px;
 }
 .link:hover {
     transform: scale(1.1);
@@ -167,6 +167,9 @@ li > a:hover {
     .link {
         margin: 25px 0px;
         width: auto;
+    }
+    .link:hover {
+        transform: scale(1);
     }
     .info {
         display: flex;
