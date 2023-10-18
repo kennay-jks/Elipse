@@ -11,13 +11,6 @@
 .dark .preto {
     display: none;
 }
-.dark .ball {
-    background: #080808;
-}
-.dark .dark-mode {
-    align-items: flex-end;
-    background: #d6d6d6;
-}
 .dark .bio h1 {
     color: #d6d6d6;
 }
@@ -30,15 +23,16 @@
 .dark {
     color: #d6d6d6;
 }
-.dark {
-    color: #d6d6d6;
+.dark .aba-n:hover {
+    background: #24242446
+}
+.dark nav {
+    background: #080808;
+}
+.dark .right-f {
+    background: #080808;
 }
 @media screen and (max-width:883px) {
-    .dark .dark-mode {
-        justify-content: flex-end;
-        align-items: center;
-        background: #d6d6d6;
-    }
 }
 .dark h1::selection {
     color: #080808;

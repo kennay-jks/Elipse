@@ -15,66 +15,6 @@ html, body {
     background: #d6d6d6;
     transition: .3s;
 }
-nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 4vh;
-    width: 5vw;
-    height: 100vh;
-    box-shadow: -3px -3px 5px #00000041;
-    padding-top: 25px;
-
-    position: absolute;
-    top: 0;
-    left: 95vw;
-}
-.branco {
-    display: none;
-}
-.env-lista {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
-    height: 70vh;
-}
-.env-mode {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    width: 100%;
-    height: 30vh;
-}
-.dark-mode {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    width: 30px;
-    height: 55px;
-    background: #080808;
-    margin: 25px 0px;
-    padding: 5px;
-    border-radius: 100px;
-    cursor: pointer;
-}
-.ball {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background: #d6d6d6;
-}
-.menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    gap: 4vh;
-}
-.aba {
-    margin: 5vh 0px;
-}
 .img {
     width: 10px;
     height: 10px;
@@ -181,19 +121,21 @@ footer a:hover {
     body {
         background: #d6d6d6;
     }
-    nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
+    main {
         width: 100vw;
-        min-width: 3vw;
-        height: 9vh;
-        padding-top: 1vh;
-        padding: 0;
-        box-shadow: 3px 3px 5px #00000046;
-
-        position: static;
+        height: 91vh;
+    }
+    .bio {
+        height: 91vh;
+        padding: 5vw;
+    }
+    .bio h1, h2, p {
+        color: #080808;
+    }
+}
+@media screen and (max-height:485px) {
+    body {
+        background: #d6d6d6;
     }
     .menu {
         display: flex;
@@ -212,38 +154,5 @@ footer a:hover {
     }
     .bio h1, h2, p {
         color: #080808;
-    }
-    .env-lista {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        width: 70vw;
-        height: 100%;
-        padding: 0px 40px;
-    }
-    .env-mode {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        width: 30vw;
-        height: 100%;
-    }
-    .dark-mode {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        width: 55px;
-        height: 30px;
-        background: #080808;
-        margin: 0px 25px;
-        padding: 5px;
-        border-radius: 100px;
-        cursor: pointer;
-    }
-    .ball {
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        background: #d6d6d6;
     }
 }
