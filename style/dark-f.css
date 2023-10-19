@@ -32,6 +32,9 @@
 .dark .right-f {
     background: #080808;
 }
+.dark  .linha {
+    background: #d6d6d6;
+}
 @media screen and (max-width:883px) {
 }
 .dark h1::selection {
