@@ -1,3 +1,6 @@
+html, body {
+    overflow: hidden;
+}
 nav {
     display: flex;
     flex-direction: column;
