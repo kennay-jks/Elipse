@@ -122,6 +122,9 @@ footer a:hover {
     opacity: 0.5;
 }
 @media screen and (max-width:596px) {
+    html, body {
+        overflow: hidden;
+    }
     body {
         background: #d6d6d6;
     }
