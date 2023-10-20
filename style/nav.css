@@ -1,5 +1,5 @@
 html, body {
-    overflow: hidden;
+    overflow: hidden !important;
 }
 nav {
     display: flex;
@@ -164,6 +164,10 @@ nav:hover .aba-n {
         background: #080808;
         margin: 4px;
         transition: .3s;
+    }
+    :active {
+        background: none;
+        color: none;
     }
     .l1.active {
         transform: rotate(-45deg) translate(-3px, 9px );
