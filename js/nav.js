@@ -9,15 +9,22 @@ btn.addEventListener("click", () =>{
 
     if (nav.classList.contains("active")) {
         nav.classList.remove("active")
-        l1.classList.remove("active")
-        l2.classList.remove("active")
-        l3.classList.remove("active")
+            l1.classList.remove("active")
+            l2.classList.remove("active")
+            l3.classList.remove("active")
+        setTimeout(() => {
+            nav.classList.remove("disp")
+        }, 100)
     } else {
-        nav.classList.add("active")
-        l1.classList.add("active")
-        l1.classList.add("active")
-        l2.classList.add("active")
-        l3.classList.add("active")
+        nav.classList.add("disp")
+
+        setTimeout(() => {
+            nav.classList.add("active")
+            l1.classList.add("active")
+            l1.classList.add("active")
+            l2.classList.add("active")
+            l3.classList.add("active")
+        }, 10)
     }
 
 })
