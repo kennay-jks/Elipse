@@ -58,6 +58,7 @@ nav:hover .aba-n {
     transition: .2s;
     overflow: hidden;
     margin: 5px;
+    margin-left: 0;
 }
 .poli {
     height: auto;
