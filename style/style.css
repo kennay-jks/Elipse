@@ -23,14 +23,22 @@ main {
     width: 95vw;
     height: 100vh;
 }
-.filos {
+.artemis {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 50px;
     padding: 50px 80px;
-    width: 95vw;
+    width: 100%;
+}
+.filos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
     height: 100vh;
 }
 .filo {
@@ -137,12 +145,18 @@ footer a:hover {
     .filosaba {
         display: none;
     }
-    .filos {
+    .artemis {
         display: block;
         flex-direction: column;
         gap: 50px;
         padding: 30px 40px;
-        padding-bottom: 80px;
+        padding-bottom: 100px;
+        width: 100%;
+    }
+    .filos {
+        display: block;
+        flex-direction: column;
+        gap: 50px;
         width: 100%;
         height: 100%;
     }

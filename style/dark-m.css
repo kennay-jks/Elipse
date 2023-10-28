@@ -31,3 +31,9 @@
 .dark  .linha {
     background: #d6d6d6;
 }
+.dark .busca {
+    border: 1px solid #d6d6d6;
+}
+.dark #search {
+    border-left: 1px solid #d6d6d6;
+}

@@ -1,4 +1,4 @@
-let btn = document.querySelector(".env-mobile")
+let btn = document.querySelector(".env-linha")
 let nav = document.querySelector(".right-f")
 let l1 = document.querySelector(".l1")
 let l2 = document.querySelector(".l2")
