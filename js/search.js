@@ -1,30 +1,33 @@
-// let lista = document.querySelector('.lista')
-// let search = document.querySelector('#search')
+// Função para processar a pesquisa
+function processSearch() {
+    event.preventDefault()
+    let searchTerm = document.getElementById("search").value
+    // Codifique o valor da pesquisa para ser usado em uma URL
+    let encodedSearchTerm = encodeURIComponent(searchTerm)
+    // Redirecione o usuário para a página de itens com o parâmetro na URL
+    window.location.href = "search.html?busca=" + encodedSearchTerm
+}
 
-// fill = ['<a href="">Heráclito</a>','<a href="">Maquiavel</a>','<a href="">Nietzsche</a>','<a href="">Schopenhauer</a>','<a href="">Platão</a>','<a href="">Parmênides</a>','<a href="">Tales de Mileto</a>','<a href="">Descartes</a>','<a href="">Socrates</a>','<a href="">Diógenes</a>','']
+// Para dispositivos móveis, use o evento "touchstart" no botão de pesquisa
+let searchButtons = document.querySelectorAll(".btn")
+let searchInput = document.getElementById("search")
+let searchInputMobile = document.getElementById("search-mobile")
 
-// t = ""
+searchButtons.forEach(function(searchButton) {
+    searchButton.addEventListener("click", processSearch)
+    // Adicione um evento de toque para dispositivos móveis
+    searchButton.addEventListener("touchstart", processSearch)
+})
 
-// for (i in fill) {
-//     t += "<li>"+fill[i]+"</li>"
-//     fill[i] = fill[i].toLowerCase()
-//     //fill[i] = fill[i].normalize("NFD")
-// }
+// Lidando com a tecla "Enter" no campo de pesquisa móvel
+searchInputMobile.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        processSearch()
+    }
+})
 
-// lista.innerHTML = t
-
-// search.onkeyup=function(e){
-//     t = this.value
-
-//     r = new RegExp(t,'g')
-
-//     for (i in fill) {
-//         if ( fill[i].match(r) ) {
-//             lista.children[i].removeAttribute('style')
-//             lista.style.display = 'none'
-//         } else {
-//             lista.children[i].style.display = 'none'
-//             lista.style.display = 'flex'
-//         }
-//     }
-// }
+searchInput.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        processSearch()
+    }
+})

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../style/nav.css">
     <link rel="stylesheet" href="../style/filosofos.css">
     <link rel="stylesheet" href="../style/dark-m.css">
+    <link rel="stylesheet" href="../style/view.css">
 </head>
 <body>
     <nav>
@@ -22,7 +23,7 @@
 
                         <div class="busca">
                             <img src="../img/outos/lupa-branco-pesq.svg" alt="pesquisar" class="branco btn">
-                            <img src="../img/outos/lupa-preto-pesq.svg" alt="pesquisar" class="preto btn" >
+                            <img src="../img/outos/lupa-preto-pesq.svg" alt="pesquisar" class="preto btn">
                             
                             <input type="text" name="search" id="search" placeholder="Buscar">
                         </div>
@@ -61,12 +62,12 @@
             </ul>
         </section>
         <section class="busca-mobile">
-            <div class="busca">
-                <img src="../img/outos/lupa-branco-pesq.svg" alt="pesquisar" class="branco btn">
-                <img src="../img/outos/lupa-preto-pesq.svg" alt="pesquisar" class="preto btn" >
-                
-                <input type="text" name="search" id="search-mobile" placeholder="Buscar">
-            </div>
+                <div class="busca">
+                    <img src="../img/outos/lupa-branco-pesq.svg" alt="pesquisar" class="branco btn">
+                    <img src="../img/outos/lupa-preto-pesq.svg" alt="pesquisar" class="preto btn">
+                    
+                    <input type="text" name="search" id="search-mobile" placeholder="Buscar">
+                </div>
         </section>
         <section class="env-all">
             <section class="env-mode">
@@ -124,105 +125,105 @@
     <main>
         <section class="filos">
             <div class="artemis">
-                <a href="heraclito.html" class="link" target="_parent">
+                <a href="heraclito.html" class="link" data-search="Heráclito" target="_parent">
                     <div class="filo heraclito"></div>
                     <div class="info">
-                        <h2>Heráclito</h2>
+                        <h2 class="filter">Heráclito</h2>
                         <p>540 - 470 a.C.</p>
                     </div>
                 </a>
-                <a href="maquiavel.html" class="link">
+                <a href="maquiavel.html" class="link" data-search="Maquiavel" target="_parent">
                     <div class="filo maquiavel"></div>
                     <div class="info">
-                        <h2>Maquiavel</h2>
+                        <h2 class="filter">Maquiavel</h2>
                         <p>1469 - 1527</p>
                     </div>
                 </a>
-                <a href="nietzsche.html" class="link">
+                <a href="nietzsche.html" class="link" data-search="Nietzsche" target="_parent">
                     <div class="filo nietzsche"></div>
                     <div class="info">
-                        <h2>Nietzsche</h2>
+                        <h2 class="filter">Nietzsche</h2>
                         <p>1844 - 1900</p>
                     </div>
                 </a>
-                <a href="" class="link">
+                <a href="" class="link" data-search="Schopenhauer">
                     <div class="filo Schopenhauer"></div>
                     <div class="info">
                         <h2>Schopenhauer</h2>
                         <p>1788 - 1860</p>
                     </div>
                 </a>
-                <a href="" class="link">
+                <a href="" class="link" data-search="Platão">
                     <div class="filo Platão"></div>
                     <div class="info">
                         <h2>Platão</h2>
                         <p>428 - 348 a.C.</p>
                     </div>
                 </a>
-                <a href="" class="link">
+                <a href="" class="link" data-search="Parmênides">
                     <div class="filo Parmenides"></div>
                     <div class="info">
                         <h2>Parmênides</h2>
                         <p>530 - 460 a.C.</p>
                     </div>
                 </a>
-                <a href="" class="link">
+                <a href="" class="link" data-search="Tales de Mileto">
                     <div class="filo Tales"></div>
                     <div class="info">
                         <h2>Tales de Mileto</h2>
                         <p>624 - 546 a.C.</p>
                     </div>
                 </a>
-                <a href="" class="link">
+                <a href="" class="link" data-search="Descartes">
                     <div class="filo Descartes"></div>
                     <div class="info">
                         <h2>Descartes</h2>
                         <p>1596 – 1650</p>
                     </div>
                 </a>
-                <a href="" class="link">
+                <a href="" class="link" data-search="Socrates">
                     <div class="filo socra"></div>
                     <div class="info">
                         <h2>Socrates</h2>
                         <p>469 - 399 a.C.</p>
                     </div>
                 </a>
-                <a href="" class="link">
+                <a href="" class="link" data-search="Diógenes">
                     <div class="filo sinope"></div>
                     <div class="info">
                         <h2>Diógenes</h2>
                         <p>412 - 323 a.C.</p>
                     </div>
                 </a>
-                <a href="" class="link">
+                <a href="" class="link" data-search="Wittgenstein">
                     <div class="filo Wittgenstein"></div>
                     <div class="info">
                         <h2>Wittgenstein</h2>
                         <p>1889 - 1951</p>
                     </div>
                 </a>
-                <a href="" class="link">
+                <a href="" class="link" data-search="Confúcio">
                     <div class="filo Confucio"></div>
                     <div class="info">
                         <h2>Confúcio</h2>
                         <p>552 - 489 a.C.</p>
                     </div>
                 </a>
-                <a href="" class="link">
+                <a href="" class="link" data-search="Hegel">
                     <div class="filo hegel"></div>
                     <div class="info">
                         <h2>Hegel</h2>
                         <p>1770 - 1831</p>
                     </div>
                 </a>
-                <a href="" class="link">
+                <a href="" class="link" data-search="Kant">
                     <div class="filo kant"></div>
                     <div class="info">
                         <h2>Kant</h2>
                         <p>1724 - 1804</p>
                     </div>
                 </a>
-                <a href="" class="link">
+                <a href="" class="link" data-search="Montesquieu">
                     <div class="filo montesquieu"></div>
                     <div class="info">
                         <h2>Montesquieu</h2>
@@ -240,5 +241,6 @@
     <script src="../js/mode.js"></script>
     <script src="../js/nav.js"></script>
     <script src="../js/search.js"></script>
+    <script src="../js/view.js"></script>
 </body>
 </html>

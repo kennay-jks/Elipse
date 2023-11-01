@@ -50,7 +50,7 @@ nav:hover .aba-n {
 nav:hover .lp, nav:hover .lb {
     display: none;
 }
-#search {
+#search, #search-mobile {
     background: transparent;
     border: none;
     outline: none;
@@ -190,6 +190,10 @@ nav:hover .lp, nav:hover .lb {
         top: 0;
         left: 0px;
         z-index: 999;
+    }
+    #search-mobile {
+        display: block;
+        border-left: 1px solid #080808;
     }
     .env-lista {
         display: none;

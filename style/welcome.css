@@ -55,7 +55,7 @@ main {
     align-items: flex-start;
     max-width: 600px;
 }
-.btn {
+.btnf {
     display: flex;
     justify-content: center;
     align-items: center;
