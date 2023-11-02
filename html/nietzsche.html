@@ -14,13 +14,27 @@
     <nav>
         <section class="env-lista">
             <ul class="menu">
-                    <li class="aba-n">
-                            <a href="../index.html" class="aba">
-                                <img src="../img/outos/home.svg" alt="botão home" class="preto">
-                                <img src="../img/outos/home-branco.svg" alt="botão home" class="branco">
-                                <p>Home</p>
-                            </a>
-                    </li>
+                <li class="lupa">
+                    <div class="aba">
+                        <img src="../img/outos/lupa-branco.svg" alt="pesquisar" class="branco lp">
+                        <img src="../img/outos/lupa-preto.svg" alt="pesquisar" class="preto lp">
+
+                        <div class="busca">
+                            <img src="../img/outos/lupa-branco-pesq.svg" alt="pesquisar" class="branco btn">
+                            <img src="../img/outos/lupa-preto-pesq.svg" alt="pesquisar" class="preto btn" >
+                            
+                            <input type="text" name="search" id="search" placeholder="Buscar">
+                        </div>
+                    </div>
+                </li>
+
+                <li class="aba-n">
+                        <a href="../index.html" class="aba">
+                            <img src="../img/outos/home.svg" alt="botão home" class="preto">
+                            <img src="../img/outos/home-branco.svg" alt="botão home" class="branco">
+                            <p>Home</p>
+                        </a>
+                </li>
 
                 <li class="aba-n">
                     <a href="philosophers.html" class="aba">
@@ -30,14 +44,14 @@
                     </a>
                 </li>
                 <li class="aba-n">
-                    <a href="philosophers.html" class="aba">
+                    <a href="" class="aba">
                         <img src="../img/outos/historia.svg" alt="botão filosofos" class="preto">
                         <img src="../img/outos/historia-branco.svg" alt="botão filosofos" class="branco">
                         <p>Historias</p>
                     </a>
                 </li>
                 <li class="aba-n">
-                    <a href="philosophers.html" class="aba">
+                    <a href="" class="aba">
                         <img src="../img/outos/lampada.svg" alt="botão filosofos" class="preto">
                         <img src="../img/outos/lampada-branco.svg" alt="botão filosofos" class="branco">
                         <p>Curiosidades</p>
@@ -45,18 +59,28 @@
                 </li>
             </ul>
         </section>
-        <section class="env-mode">
-            <div class="dark-mode">
-                <img src="../img/outos/mode.svg" alt="Botão do modo escuro" class="preto">
-                <img src="../img/outos/mode-branco.svg" alt="Botão do modo escuro" class="branco">
+        <section class="busca-mobile">
+            <div class="busca">
+                <img src="../img/outos/lupa-branco-pesq.svg" alt="pesquisar" class="branco btn">
+                <img src="../img/outos/lupa-preto-pesq.svg" alt="pesquisar" class="preto btn" >
+                
+                <input type="text" name="search" id="search-mobile" placeholder="Buscar">
             </div>
         </section>
-        <section class="env-mobile">
-            <div class="env-linha">
-                <div class="linha l1"></div>
-                <div class="linha l2"></div>
-                <div class="linha l3"></div>
-            </div>
+        <section class="env-all">
+            <section class="env-mode">
+                <div class="dark-mode">
+                    <img src="../img/outos/mode.svg" alt="Botão do modo escuro" class="preto">
+                    <img src="../img/outos/mode-branco.svg" alt="Botão do modo escuro" class="branco">
+                </div>
+            </section>
+            <section class="env-mobile">
+                <div class="env-linha">
+                    <div class="linha l1"></div>
+                    <div class="linha l2"></div>
+                    <div class="linha l3"></div>
+                </div>
+            </section>
         </section>
     </nav>
     <div class="right-f">
@@ -212,5 +236,6 @@
     </main>
     <script src="../js/mode.js"></script>
     <script src="../js/nav.js"></script>
+    <script src="../js/search.js"></script>
 </body>
 </html>

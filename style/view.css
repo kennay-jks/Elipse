@@ -1,0 +1,9 @@
+.artemis {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 50px 80px;
+    width: 100%;
+}
