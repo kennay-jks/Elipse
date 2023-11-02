@@ -44,6 +44,9 @@
 .dark #search {
     border-left: 1px solid #d6d6d6;
 }
+.dark #search-mobile {
+    border-left: 1px solid #d6d6d6;
+}
 /* @media screen and (max-width:883px) {
     .dark .dark-mode {
         justify-content: flex-end;
