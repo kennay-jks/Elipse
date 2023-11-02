@@ -2,8 +2,9 @@
 function processSearch() {
     event.preventDefault()
     let searchTerm = document.getElementById("search").value
+    let searchTermMobile = document.getElementById("search-mobile").value
     // Codifique o valor da pesquisa para ser usado em uma URL
-    let encodedSearchTerm = encodeURIComponent(searchTerm)
+    let encodedSearchTerm = encodeURIComponent(searchTerm || searchTermMobile)
     // Redirecione o usuário para a página de itens com o parâmetro na URL
     window.location.href = "search.html?busca=" + encodedSearchTerm
 }
@@ -16,7 +17,7 @@ let searchInputMobile = document.getElementById("search-mobile")
 searchButtons.forEach(function(searchButton) {
     searchButton.addEventListener("click", processSearch)
     // Adicione um evento de toque para dispositivos móveis
-    searchButton.addEventListener("touchstart", processSearch)
+    //searchButton.addEventListener("click", processSearch)
 })
 
 // Lidando com a tecla "Enter" no campo de pesquisa móvel
