@@ -115,28 +115,6 @@ li > a:hover {
 .branco {
     display: none;
 }
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    width: 95vw;
-    height: 200px;
-    background: #080808;
-    padding: 20px;
-    box-shadow: -4px -4px 10px #0000004f;
-    overflow: hidden;
-    border-top: 1px solid #d6d6d6;
-}
-footer a {
-    color: #d6d6d6;
-    font-size: 1em;
-    margin: 10px;
-    transition: .3s;
-}
-footer a:hover {
-    opacity: 0.5;
-}
 @media screen and (max-width:596px) {
     main {
        width: 100vw;

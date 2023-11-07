@@ -22,9 +22,6 @@ html, body {
     height: 10px;
 }
 main {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
     width: 100vw;
     height: 100vh;
 }
@@ -99,4 +96,5 @@ main {
     .wel {
         height: 91vh;
     }
+
 }
