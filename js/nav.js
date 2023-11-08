@@ -28,3 +28,12 @@ btn.addEventListener("click", () =>{
     }
 
 })
+
+let viewBtn = document.querySelectorAll(".viewBtn")
+let envBusca = document.querySelector(".env-busca-mobile")
+
+viewBtn.forEach( (viewButton) => {
+    viewButton.addEventListener("click", () => {
+        envBusca.classList.toggle("view")
+    })
+})
