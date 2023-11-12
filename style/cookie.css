@@ -14,10 +14,10 @@
     z-index: 11;
     font-size: .8em;
 }
-.aviso :where(p) {
+.aviso p {
     color: #d6d6d6;
 }
-.cookie-pp {
+.cookie {
     color: #137547;
     text-decoration: underline;
 }
