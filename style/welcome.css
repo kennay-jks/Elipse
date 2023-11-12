@@ -10,6 +10,9 @@
     list-style: none;
     text-decoration: none;
 }
+::-webkit-scrollbar {
+    display: none;
+}
 html, body {
     display: flex;
     flex-direction: row-reverse;

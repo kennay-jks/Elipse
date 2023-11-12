@@ -1,0 +1,70 @@
+.aviso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #080808;
+    width: 100vw;
+    height: auto;
+    padding: 10px 15px;
+    border-top: 1px solid #d6d6d6;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 11;
+    font-size: .8em;
+}
+.aviso :where(p, a) {
+    color: #d6d6d6;
+}
+.cookie-pp {
+    color: #137547;
+    text-decoration: underline;
+}
+.cookie-btn {
+    cursor: pointer;
+    background: #d6d6d6;
+    border: none;
+    padding: 5px;
+    margin: 0px 2px;
+    border-radius: 20px;
+    font-size: .9em;
+}
+.env-text {
+    width: 85%;
+}
+.env-buttons {
+    display: flex;
+    justify-content: flex-end;
+    width: 15%;
+}
+
+@media screen and (max-width: 1229px) {
+    .aviso {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .env-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .env-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .cookie-btn {
+        cursor: pointer;
+        background: #d6d6d6;
+        border: none;
+        padding: 8px;
+        margin: 0px 8px;
+        border-radius: 20px;
+        font-size: 1em;
+    }
+}

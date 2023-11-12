@@ -19,7 +19,7 @@ nav {
     position: absolute;
     top: 0;
     left: 95vw;
-    z-index: 999;
+    z-index: 10;
 }
 .env-busca-mobile {
     display: none;
@@ -198,7 +198,7 @@ footer a:hover {
         justify-content: center;
         align-items: center;
         width: 100vw;
-        height: 9vh;
+        height: 55px;
         padding-top: 1vh;
         padding: 0;
         box-shadow: 3px 3px 5px #00000046;
@@ -206,11 +206,11 @@ footer a:hover {
         position: absolute;
         top: 0;
         left: 0px;
-        z-index: 999;
+        z-index: 10;
     }
     nav:hover {
         width: 100vw;
-        height: 9vh;
+        height: 55px;
 
         position: absolute;
         top: 0;
@@ -347,9 +347,9 @@ footer a:hover {
         padding-bottom: 20px;
 
         position: absolute;
-        top: 9vh;
+        top: 55px;
         right: -100%;
-        z-index: 998;
+        z-index: 9;
     }
     .right-f.active {
         right: 0;
