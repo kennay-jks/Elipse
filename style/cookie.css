@@ -14,7 +14,7 @@
     z-index: 11;
     font-size: .8em;
 }
-.aviso :where(p, a) {
+.aviso :where(p) {
     color: #d6d6d6;
 }
 .cookie-pp {
