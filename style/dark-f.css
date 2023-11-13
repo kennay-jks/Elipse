@@ -44,6 +44,20 @@
 .dark #search-mobile {
     border-left: 1px solid #d6d6d6;
 }
+.dark .aviso {
+    background: #d6d6d6;
+    border-top: 1px solid #080808;
+}
+.dark .aviso p {
+    color: #080808;
+}
+.dark .cookie-btn {
+    background: #080808;
+}
+.dark .link-poli {
+    color: #137547;
+    text-decoration: underline;
+}
 @media screen and (max-width:883px) {
 }
 .dark h1::selection {

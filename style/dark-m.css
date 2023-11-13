@@ -13,11 +13,11 @@
 }
 .dark .filo {
     border: 1px solid #d6d6d6;
-    border-right: none;
+    border-bottom: none;
 }
 .dark .info {
     border: 1px solid #d6d6d6;
-    border-left: none;
+    border-top: none;
 }
 .dark .aba-n:hover {
     background: #111111;
@@ -44,13 +44,13 @@
     background: #d6d6d6;
     border-top: 1px solid #080808;
 }
-.dark .aviso :where(p, a) {
+.dark .aviso p {
     color: #080808;
 }
 .dark .cookie-btn {
     background: #080808;
 }
-.dark .cookie-pp {
+.dark .link-poli {
     color: #137547;
     text-decoration: underline;
 }

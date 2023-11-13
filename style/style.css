@@ -29,7 +29,7 @@ main {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    padding: 50px 80px;
+    padding: 50px;
     width: 100%;
 }
 .filos {
@@ -43,34 +43,33 @@ main {
 }
 .filo {
     display: flex;
-    flex-basis: 50%;
+    flex-basis: 75%;
     flex-grow: 1;
     background: #d6d6d6;
-    width: 220px;
-    height: 250px;
-    border-radius: 8px 0px 0px 8px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0px 0px;
     cursor: pointer;
     overflow: hidden;
     box-shadow: 4px 4px 7px #000000;
     border: 1px solid #080808;
-    border-right: none;
+    border-bottom: none;
 }
 .info {
     display: flex;
-    flex-basis: 50%;
+    flex-basis: 10%;
     flex-grow: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    width: 200px;
-    height: 250px;
+    width: 100%;
+    height: auto;
     padding-left: 20px;
     padding: 10px;
-    background: #161616;
-    border-radius: 0px 8px 8px 0px;
+    background: #080808;
+    border-radius: 0px 0px 8px 8px;
     border: 1px solid #080808;
-    border-left: none;
+    border-top: none;
 }
 .info h2 {
     font-weight: normal;
@@ -82,12 +81,13 @@ main {
 }
 .link {
     display: flex;
+    flex-direction: column;
     flex-basis: 5%;
     flex-grow: .1;
     text-decoration: none;
-    min-width: 320px;
-    max-width: 400px;
-    height: 250px;
+    min-width: 200px;
+    /* max-width: 00px; */
+    height: 330px;
     box-shadow: 6px 6px 13px #00000057;
     border-radius: 3px;
 }
@@ -142,16 +142,16 @@ li > a:hover {
     .filo {
         display: block;
         background: #d6d6d6;
-        width: 220px;
-        height: 250px;
-        border-radius: 5px 0px 0px 5px;
+        width: 100%;
+        height: auto;
         cursor: pointer;
         overflow: hidden;
         box-shadow: 4px 4px 7px #00000000;
     }
     .link {
         margin: 35px auto;
-        width: auto;
+        width: 50px;
+        height: 300px;
     }
     .link:hover {
         transform: scale(1);
@@ -161,15 +161,13 @@ li > a:hover {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 20px;
-        width: 180px;
+        gap: 10px;
+        width: 100%;
         height: 250px;
         padding-left: 20px;
         padding: 10px;
-        background: #161616;
-        border-radius: 0px 5px 5px 0px;
+        background: #080808;
         border: 1px solid #080808;
-        border-left: none;
     }
     .info h2 {
         font-weight: normal;

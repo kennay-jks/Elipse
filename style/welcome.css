@@ -9,6 +9,7 @@
     scrollbar-width: none;
     list-style: none;
     text-decoration: none;
+    letter-spacing: 1px;
 }
 ::-webkit-scrollbar {
     display: none;
