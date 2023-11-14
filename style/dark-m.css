@@ -5,6 +5,10 @@
 .dark * {
     color: #d6d6d6;
 }
+.dark ::selection {
+    color: #080808;
+    background: #d6d6d6;
+}
 .dark .preto {
     display: none;
 }

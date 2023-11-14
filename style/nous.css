@@ -30,26 +30,25 @@ main {
 .bio {
     max-width: 900px;
     height: auto;
-    padding: 5vw;
+    padding-top: 20px;
     margin: auto;
 }
 .bio p {
     font-size: 1.2em;
-    margin: 30px 0px;
+    margin: 30px 30px;
 }
 .bio h1 {
     font-size: 2em;
     text-align: center;
-    margin-bottom: 20px;
+    margin: 0px 30px 20px 30px;
 }
 .bio h2 {
     font-size: 1.6em;
-    margin-bottom: 20px;
-    margin-top: 40px;
+    margin: 40px 30px 20px 20px;
 }
 .bio h3 {
     font-size: 1.4em;
-    margin: 20px 0px;
+    margin: 20px 30px;
 }
 .add {
     max-width: 300px;
@@ -104,26 +103,7 @@ main {
 
 }
 footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100vw;
-    height: 200px;
-    background: #080808;
-    padding: 20px;
-    box-shadow: -4px -4px 10px #0000004f;
-    overflow: hidden;
-    border-top: 1px solid #d6d6d6;
-}
-footer a {
-    color: #d6d6d6;
-    font-size: 1em;
-    margin: 10px;
-    transition: .3s;
-}
-footer a:hover {
-    opacity: 0.5;
+    margin-top: 50px;
 }
 @media screen and (max-width:596px) {
     html, body {
@@ -138,14 +118,9 @@ footer a:hover {
     }
     .bio {
         height: 91vh;
-        padding: 5vw;
-        padding-bottom: 150px;
     }
     .bio h1, h2, p {
         color: #080808;
-    }
-    footer {
-        display: none;
     }
 }
 @media screen and (max-height:485px) {
@@ -158,12 +133,8 @@ footer a:hover {
     }
     .bio {
         height: 91vh;
-        padding: 5vw;
     }
     .bio h1, h2, p {
         color: #080808;
-    }
-    footer {
-        display: none;
     }
 }
