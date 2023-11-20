@@ -58,3 +58,17 @@
     background: #d6d6d6 url(../img/Montesquieu.svg) center top no-repeat;
     background-size: cover;
 }
+
+/* conceitos */
+
+.oqfl {
+    background: #d6d6d6 url(../img/conceitos/loop-min.jpg) center no-repeat;
+    background-size: cover;
+}
+
+/* titulo dos conceitos */
+
+.titles {
+    background: linear-gradient(to bottom, transparent 0%, #d6d6d6 98%), url(../img/conceitos/loop-min.jpg) center no-repeat;
+    background-size: cover;
+}

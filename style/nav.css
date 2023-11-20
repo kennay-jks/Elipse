@@ -1,6 +1,7 @@
 html, body {
     overflow: hidden;
     background: #d6d6d6;
+    min-zoom: 1.25;
 }
 nav {
     display: flex;
@@ -337,7 +338,7 @@ footer a:hover {
         width: 100vw;
 
         position: relative;
-        top: 9vh;
+        top: 56px;
     }
     .right-f {
         display: none;
