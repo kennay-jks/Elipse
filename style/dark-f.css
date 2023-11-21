@@ -41,6 +41,10 @@
 }
 .dark .busca {
     border: 1px solid #d6d6d6;
+    background: #080808;
+}
+.dark .env-busca-mobile {
+    background: linear-gradient(to top, transparent, #080808);
 }
 .dark #search {
     border-left: 1px solid #d6d6d6;
