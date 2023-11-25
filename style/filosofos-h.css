@@ -1,0 +1,90 @@
+.socra {
+    background: #d6d6d6 url(img/) center top no-repeat;
+    background-size: cover;
+}
+.sinope {
+    background: #d6d6d6 url(img/sinope.svg) center no-repeat;
+    background-size: cover;
+}
+.heraclito {
+    background: #d6d6d6 url(img/Heraclito.svg) center no-repeat;
+    background-size: cover;
+}
+.maquiavel {
+    background: #d6d6d6 url(img/Maquiavel.svg) center top no-repeat;
+    background-size: cover;
+}
+.nietzsche {
+    background: #d6d6d6 url(img/Nietzsche.svg) center no-repeat;
+    background-size: cover;
+}
+.Schopenhauer {
+    background: #d6d6d6 url(img/Schopenhauer.svg) center top no-repeat;
+    background-size: cover;
+}
+.Platão {
+    background: #d6d6d6 url(img/platao.svg) center no-repeat;
+    background-size: cover;
+}
+.Parmenides {
+    background: #d6d6d6 url(img/parmenides.svg) center no-repeat;
+    background-size: cover;
+}
+.Tales {
+    background: #d6d6d6 url(img/tales.svg) center no-repeat;
+    background-size: cover;
+}
+.Descartes {
+    background: #d6d6d6 url(img/Descartes.svg) center top no-repeat;
+    background-size: cover;
+}
+.Wittgenstein {
+    background: #d6d6d6 url(img/Wittgenstein.svg) center top no-repeat;
+    background-size: cover;
+}
+.Confucio {
+    background: #d6d6d6 url(img/Confucius.svg) center no-repeat;
+    background-size: cover;
+}
+.hegel {
+    background: #d6d6d6 url(img/hegel2.svg) center no-repeat;
+    background-size: cover;
+}
+.kant {
+    background: #d6d6d6 url(img/kant.svg) center no-repeat;
+    background-size: cover;
+}
+.montesquieu {
+    background: #d6d6d6 url(img/Montesquieu.svg) center top no-repeat;
+    background-size: cover;
+}
+
+/* conceitos */
+
+.oqfl {
+    background: #d6d6d6 url(img/conceitos/loop-min.jpg) center no-repeat;
+    background-size: cover;
+}
+.estoico {
+    background: #d6d6d6 url(img/conceitos/estoico.jpg) center no-repeat;
+    background-size: cover;
+}
+
+/* titulo dos conceitos */
+
+.titulo-filosofia {
+    background: linear-gradient(to bottom, transparent 0%, #d6d6d6 98%), url(img/conceitos/loop-min.jpg) center no-repeat;
+    background-size: cover;
+}
+.dark .titulo-filosofia {
+    background: linear-gradient(to bottom, transparent 0%, #080808 98%), url(img/conceitos/loop-min.jpg) center no-repeat;
+    background-size: cover;
+}
+.titulo-estoico {
+    background: linear-gradient(to bottom, transparent 0%, #d6d6d6 98%), url(img/conceitos/estoico.jpg) center no-repeat;
+    background-size: cover;
+}
+.dark .titulo-estoico {
+    background: linear-gradient(to bottom, transparent 0%, #080808 98%), url(img/conceitos/estoico.jpg) center top no-repeat;
+    background-size: cover;
+}

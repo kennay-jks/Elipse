@@ -66,10 +66,6 @@
     color: #137547;
     text-decoration: underline;
 }
-.dark .titles {
-    background: linear-gradient(to bottom, transparent 0%, #080808 98%), url(../img/conceitos/loop-min.jpg) center no-repeat;
-    background-size: cover;
-}
 @media screen and (max-width:883px) {
 }
 .dark h1::selection {
